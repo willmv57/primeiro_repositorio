@@ -1,0 +1,40 @@
+.container-geral {
+    display: flex; /* Coloca o aside e o main lado a lado */
+}
+
+.barra-lateral {
+    width: 20%; /* Barra ocupa 20% da largura */
+    background-color: blueviolet; /* Cinzinha claro */
+    padding: 20px;
+    height: 100vh; /* Altura da tela inteira */
+}
+
+.conteudo-principal {
+    width: 80%; /* Conteúdo ocupa o restante */
+    padding: 20px;
+}
+
+ul a li{
+    color: red;
+}
+
+ul a li:hover{
+    color: blanchedalmond;
+}
+
+a{
+    padding: 0;
+}
+.icone{
+font-size: 50px;
+display: block;
+}
+
+.icone:hover{
+    color: red;
+}
+
+
+body{
+    font-family: "Coral Pixels", serif;
+}
